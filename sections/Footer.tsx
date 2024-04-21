@@ -4,7 +4,7 @@ import Icons from "@/components/Icons"
 function Footer() {
     return (
         <footer className="pb-12">
-            <hr className="h-px border-t-0 bg-primary dark:bg-darkPrimary opacity-30"/>
+            <hr className="h-px border-t-0 bg-lightPrimary-900 dark:bg-darkPrimary-900 opacity-30"/>
             <div className="flex flex-col sm:flex-row py-14">
                 <div className="flex flex-col gap-7 sm:w-9/12">
                     <BrandLogo />
