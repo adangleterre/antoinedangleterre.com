@@ -3,7 +3,7 @@ interface IconsProps {
 }
 
 function Icons({ name }: IconsProps) {
-    const svgStyling = "transition duration-300 fill-primary dark:fill-darkPrimary hover:opacity-70"
+    const svgStyling = "transition duration-300 fill-lightPrimary-900 dark:fill-darkPrimary-900 hover:opacity-70"
 
     const icons: { [key: string]: JSX.Element } = {
         github:
