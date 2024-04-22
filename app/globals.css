@@ -47,9 +47,9 @@ body {
 
 
 button.primary {
-  @apply bg-lightPrimary-900 dark:bg-darkPrimary-900 dark:text-darkBackground text-lightBackground font-bold py-4 px-14 rounded-[5px] shadow-buttonShadow
+  @apply bg-lightPrimary-900 dark:bg-darkPrimary-900 dark:text-darkBackground text-lightBackground font-bold py-4 px-14 rounded-[5px] shadow-button
 }
 
 button.secondary {
-  @apply bg-lightSecondary-900 dark:bg-darkSecondary-900 dark:text-darkText text-lightText font-bold py-4 px-14 rounded-[5px] shadow-buttonShadow
+  @apply bg-lightSecondary-900 dark:bg-darkSecondary-900 dark:text-darkText text-lightText font-bold py-4 px-14 rounded-[5px] shadow-button
 }
