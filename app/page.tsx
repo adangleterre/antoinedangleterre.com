@@ -1,3 +1,4 @@
+import Contact from "@/sections/Contact";
 import Experiences from "@/sections/Experiences";
 import Footer from "@/sections/Footer";
 import Hero from "@/sections/Hero";
@@ -13,6 +14,9 @@ export default function Home() {
         </section>
         <section>
           <Experiences />
+        </section>
+        <section className="mb-24 md:mb-32">
+          <Contact />
         </section>
         <Footer />
       </main>
