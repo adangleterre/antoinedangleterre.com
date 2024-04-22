@@ -1,10 +1,10 @@
-import Badge from "@/components/Badge"
+import SectionBadge from "@/components/SectionBadge"
 import Icons from "@/components/Icons"
 
 function Contact() {
     return (
         <div className="flex flex-col items-center">
-            <Badge sectionName="Mes contacts" />
+            <SectionBadge sectionName="Mes contacts" />
             <p className="text-2xl text-center md:text-3xl font-extrabold font-gilroy">Envie d'échanger avec moi ?</p>
             <a href="mailto:bonjour@antoinedangleterre.com" target="_blank">
                 <div className="mb-6 mt-10 font-bold text-lg sm:text-xl flex gap-4 items-center"><Icons name="mail" size={20} /> bonjour@antoinedangleterre.fr</div>
