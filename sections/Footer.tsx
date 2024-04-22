@@ -12,13 +12,13 @@ function Footer() {
                 </div>
                 <div className="flex sm:flex-col gap-10 sm:gap-5 sm:w-3/12 items-center justify-center sm:items-end mt-10 sm:m-0">
                     <a href="https://github.com/adangleterre" target="_blank">
-                        <Icons name={"github"} />
+                        <Icons name={"github"} size={30}/>
                     </a>
                     <a href="http://fr.linkedin.com/in/antoine-dangleterre" target="_blank">
-                        <Icons name={"linkedin"} />
+                        <Icons name={"linkedin"} size={30}/>
                     </a>
                     <a href="mailto:bonjour@antoinedangleterre.com" target="_blank">
-                        <Icons name={"mail"} />
+                        <Icons name={"mail"} size={25}/>
                     </a>
                 </div>
             </div>
