@@ -28,12 +28,12 @@ function ProjectCard({ name, description, directLink, githubLink, image, imagePo
                     {(directLink || githubLink) &&
                         <div className="flex gap-4 items-center">
                             {directLink &&
-                                <a href={directLink}>
+                                <a href={directLink} target="_blank">
                                     <Icons name="lien" size={30} />
                                 </a>
                             }
                             {githubLink &&
-                                <a href={githubLink}>
+                                <a href={githubLink} target="_blank">
                                     <Icons name="github" size={25} />
                                 </a>
                             }
@@ -74,12 +74,12 @@ function ProjectCard({ name, description, directLink, githubLink, image, imagePo
                     {(directLink || githubLink) &&
                         <div className="flex gap-4 items-center">
                             {directLink &&
-                                <a href={directLink}>
+                                <a href={directLink} target="_blank">
                                     <Icons name="lien" size={30} />
                                 </a>
                             }
                             {githubLink &&
-                                <a href={githubLink}>
+                                <a href={githubLink} target="_blank">
                                     <Icons name="github" size={25} />
                                 </a>
                             }
