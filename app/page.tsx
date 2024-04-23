@@ -17,11 +17,11 @@ export default function Home() {
         <section>
           <Experiences />
         </section>
-        <section className="mb-24 md:mb-32">
-          <Contact />
-        </section>
         <section>
           <Projects />
+        </section>
+        <section>
+          <Contact />
         </section>
         <Footer />
       </main>

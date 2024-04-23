@@ -45,6 +45,9 @@ body {
   }
 }
 
+section {
+  @apply mb-24 md:mb-32
+}
 
 button.primary {
   @apply bg-lightPrimary-900 dark:bg-darkPrimary-900 dark:text-darkBackground text-lightBackground font-bold py-4 px-14 rounded-[5px] shadow-button
