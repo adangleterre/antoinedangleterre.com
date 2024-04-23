@@ -1,10 +1,10 @@
-import Badge from "@/components/Badge"
+import SectionBadge from "@/components/SectionBadge"
 import Experience from "@/components/Experience"
 
 function Experiences() {
     return (
         <>
-            <Badge sectionName={"Mon parcours"} />
+            <SectionBadge sectionName={"Mon parcours"} />
             <h2 className="text-3xl font-extrabold text-center mb-6 md:mb-10">Mon parcours professionnel en résumé</h2>
             <div className="flex flex-col gap-12">
                 <Experience post={"Auto-Entreprenariat"} dateStart={2021} company={"Kodiz"} >

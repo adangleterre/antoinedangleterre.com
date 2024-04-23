@@ -47,7 +47,9 @@ const config: Config = {
         'darkText': '#EBF0F6',
       },
       boxShadow: {
-        'buttonShadow': '0 3px 8px 1px rgba(0, 0, 0, 0.15)'
+        'lightButton': '0 3px 8px 1px rgba(0, 0, 0, 0.15)',
+        'lightCard': '0 4px 10px 0 rgba(30, 69, 113, 0.25)',
+        'darkCard': '0 4px 10px 0 rgba(81, 100, 121, 0.25)',
       }
     },
   },
@@ -75,5 +77,5 @@ const config: Config = {
   ]
 }
 
-;
+  ;
 export default config;
