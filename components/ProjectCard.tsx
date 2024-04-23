@@ -9,11 +9,11 @@ interface ProjectCardProps {
     directLink?: string;
     githubLink?: string;
     technologies: string[];
-    image: string,
+    imageSrc: string,
     imagePosition: "left" | "right"
 }
 
-function ProjectCard({ name, description, directLink, githubLink, image, imagePosition, technologies = [] }: ProjectCardProps) {
+function ProjectCard({ name, description, directLink, githubLink, imageSrc, imagePosition, technologies = [] }: ProjectCardProps) {
     if (imagePosition === "left") {
         return (
             <div className="flex items-center relative flex-row-reverse xl:min-h-[500px]">
@@ -45,7 +45,7 @@ function ProjectCard({ name, description, directLink, githubLink, image, imagePo
                         alt={`capture d'écran du projet intitulé ${name}`}
                         height={800}
                         width={800}
-                        src={projectImage}
+                        src={imageSrc}
                         className="rounded-[10px] brightness-75"
                     />
                 </div>
@@ -59,7 +59,7 @@ function ProjectCard({ name, description, directLink, githubLink, image, imagePo
                         alt={`capture d'écran du projet intitulé ${name}`}
                         height={800}
                         width={800}
-                        src={projectImage}
+                        src={imageSrc}
                         className="rounded-[10px] brightness-75"
                     />
                 </div>
