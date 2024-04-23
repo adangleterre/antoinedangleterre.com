@@ -17,7 +17,7 @@ function ProjectCard({ name, description, directLink, githubLink, imageSrc, imag
     if (imagePosition === "left") {
         return (
             <div className="flex items-center relative flex-row-reverse xl:min-h-[500px]">
-                <div className="bg-[#EFF6FF] rounded-[10px] p-11 flex flex-col gap-6 w-12/12 md:w-7/12 shadow-projectCard z-10 h-min">
+                <div className="bg-[#EFF6FF] dark:bg-[#08203E] rounded-[10px] p-11 flex flex-col gap-6 w-12/12 md:w-7/12 shadow-lightCard dark:shadow-darkCard z-10 h-min">
                     <p className="font-bold text-xl">{name}</p>
                     <p className="text-[#4B5563]">{description}</p>
                     <div className="flex flex-wrap gap-x-2">
@@ -63,7 +63,7 @@ function ProjectCard({ name, description, directLink, githubLink, imageSrc, imag
                         className="rounded-[10px] brightness-75"
                     />
                 </div>
-                <div className="bg-[#EFF6FF] rounded-[10px] p-11 flex flex-col gap-6 w-12/12 md:w-7/12 shadow-projectCard z-10 h-min">
+                <div className="bg-[#EFF6FF] dark:bg-[#08203E] rounded-[10px] p-11 flex flex-col gap-6 w-12/12 md:w-7/12 shadow-lightCard dark:shadow-darkCard z-10 h-min">
                     <p className="font-bold text-xl">{name}</p>
                     <p className="text-[#4B5563]">{description}</p>
                     <div className="flex flex-wrap gap-x-2">

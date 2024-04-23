@@ -5,7 +5,7 @@ function Contact() {
     return (
         <div className="flex flex-col items-center">
             <SectionBadge sectionName="Mes contacts" />
-            <p className="text-2xl text-center md:text-3xl font-extrabold font-gilroy">Envie d'échanger avec moi ?</p>
+            <p className="text-2xl text-center md:text-5xl font-extrabold font-gilroy">Envie d'échanger avec moi ?</p>
             <a href="mailto:bonjour@antoinedangleterre.com" target="_blank">
                 <div className="mb-6 mt-10 font-bold text-lg sm:text-xl flex gap-4 items-center"><Icons name="mail" size={20} /> bonjour@antoinedangleterre.fr</div>
             </a>

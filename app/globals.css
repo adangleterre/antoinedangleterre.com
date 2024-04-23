@@ -50,9 +50,9 @@ section {
 }
 
 button.primary {
-  @apply bg-lightPrimary-900 dark:bg-darkPrimary-900 dark:text-darkBackground text-lightBackground font-bold py-4 px-14 rounded-[5px] shadow-button
+  @apply bg-lightPrimary-900 dark:bg-darkPrimary-900 dark:text-darkBackground text-lightBackground font-bold py-4 px-14 rounded-[5px] shadow-lightButton
 }
 
 button.secondary {
-  @apply bg-lightSecondary-900 dark:bg-darkSecondary-900 dark:text-darkText text-lightText font-bold py-4 px-14 rounded-[5px] shadow-button
+  @apply bg-lightSecondary-900 dark:bg-darkSecondary-900 dark:text-darkText text-lightText font-bold py-4 px-14 rounded-[5px] shadow-lightButton
 }
