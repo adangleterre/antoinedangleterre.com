@@ -20,7 +20,7 @@ export default function Home() {
         <section className="mb-24 md:mb-32">
           <Contact />
         </section>
-        <section className="flex flex-col gap-12 lg:gap-36">
+        <section>
           <Projects />
         </section>
         <Footer />
