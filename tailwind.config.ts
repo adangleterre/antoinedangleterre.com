@@ -50,7 +50,11 @@ const config: Config = {
         'lightButton': '0 3px 8px 1px rgba(0, 0, 0, 0.15)',
         'lightCard': '0 4px 10px 0 rgba(30, 69, 113, 0.25)',
         'darkCard': '0 4px 10px 0 rgba(81, 100, 121, 0.25)',
-      }
+        'aboutPicture': '-35px 35px 0 0 rgba(124, 172, 228, 1)'
+      },
+      backgroundImage: {
+        'aboutPicture': "url('/images/aboutPicture.png')"
+      },
     },
   },
   darkMode: 'class',
