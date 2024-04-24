@@ -1,4 +1,5 @@
 import ProjectCard from "@/components/ProjectCard";
+import About from "@/sections/About";
 import Contact from "@/sections/Contact";
 import Experiences from "@/sections/Experiences";
 import Footer from "@/sections/Footer";
@@ -13,6 +14,9 @@ export default function Home() {
         <Nav />
         <section>
           <Hero />
+        </section>
+        <section>
+          <About />
         </section>
         <section>
           <Experiences />
