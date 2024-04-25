@@ -10,9 +10,9 @@ import Projects from "@/sections/Projects";
 export default function Home() {
   return (
     <>
-      <main className="container flex flex-col justify-between h-screen">
+      <main className="container flex flex-col">
         <Nav />
-        <section>
+        <section className="h-[60vh]">
           <Hero />
         </section>
         <section>
