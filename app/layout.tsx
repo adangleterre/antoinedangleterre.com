@@ -37,10 +37,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" className={`${gilroy.variable} ${openSans.variable}`}>
-      <Analytics />
-      <SpeedInsights/>
       <body>
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
