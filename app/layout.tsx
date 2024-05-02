@@ -24,10 +24,7 @@ const openSans = localfont({
 
 export const metadata: Metadata = {
   title: "Antoine Dangleterre",
-  description: "Développeur Front-End",
-  icons: {
-    icon: '/favicon.svg'
-  }
+  description: "Développeur Front-End"
 };
 
 export default function RootLayout({
