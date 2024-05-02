@@ -17,7 +17,7 @@ h1 {
 }
 
 body {
-  @apply font-openSans bg-lightBackground dark:bg-darkBackground
+  @apply font-openSans bg-lightBackground dark:bg-darkBackground container flex flex-col
 }
 
 .notification-mark {

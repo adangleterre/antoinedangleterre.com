@@ -2,7 +2,7 @@ import ThemeToggle from '../components/ThemeToggle';
 import AlertDot from '../components/AlertDot';
 import BrandLogo from '@/components/BrandLogo';
 
-function Nav() {
+function Header() {
   return (
     <header className='flex items-center mt-[50px]'>
       <div className='items-center hidden gap-4 md:flex md:w-3/12'><AlertDot />Disponible</div>
@@ -16,4 +16,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Header;
