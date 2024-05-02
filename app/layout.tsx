@@ -4,7 +4,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import "./globals.css";
 import localfont from "next/font/local"
-import Header from "@/sections/Nav";
+import Header from "@/sections/Header";
 import Footer from "@/sections/Footer";
 
 const gilroy = localfont({
