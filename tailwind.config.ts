@@ -48,6 +48,9 @@ const config: Config = {
       },
       boxShadow: {
         'lightButton': '0 3px 8px 1px rgba(0, 0, 0, 0.15)',
+        'hoverLightButton': '0 3px 8px 1px rgba(0, 0, 0, 0.40)',
+        'darkButton': '0 3px 8px 1px rgba(191, 213, 238, 0.15)',
+        'hoverDarkButton': '0 3px 8px 1px rgba(191, 213, 238, 0.25)',
         'lightCard': '0 4px 10px 0 rgba(30, 69, 113, 0.25)',
         'darkCard': '0 4px 10px 0 rgba(81, 100, 121, 0.25)',
         'aboutPicture': '-35px 35px 0 0 rgba(124, 172, 228, 1)'
