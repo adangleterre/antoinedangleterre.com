@@ -8,9 +8,9 @@ import { motion } from 'framer-motion';
 function Header() {
   return (
     <motion.header
-      initial={{ opacity: 0, y: -100 }}
+      initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4 }}
+      transition={{ duration: 0.5 }}
       className='flex items-center mt-[50px]'
     >
       <div className='items-center hidden gap-4 md:flex md:w-3/12'><AlertDot />Disponible</div>
