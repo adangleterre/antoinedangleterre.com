@@ -1,17 +1,13 @@
-import ProjectCard from "@/components/ProjectCard";
 import About from "@/sections/About";
 import Contact from "@/sections/Contact";
 import Experiences from "@/sections/Experiences";
-import Footer from "@/sections/Footer";
 import Hero from "@/sections/Hero";
-import Nav from "@/sections/Nav";
 import Projects from "@/sections/Projects";
 
 export default function Home() {
   return (
     <>
-      <main className="container flex flex-col">
-        <Nav />
+      <main>
         <section className="h-[60vh]">
           <Hero />
         </section>
@@ -27,7 +23,6 @@ export default function Home() {
         <section>
           <Contact />
         </section>
-        <Footer />
       </main>
     </>
   );

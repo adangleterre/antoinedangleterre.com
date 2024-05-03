@@ -5,6 +5,7 @@
 <h1 align="center">
   antoinedangleterre.com
 </h1>
+
 <p align="center">
   My personnal website <a href="https://antoinedangleterre.com" target="_blank">antoinedangleterre.com</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
@@ -59,9 +60,6 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-
-
 
 ## Contact
 

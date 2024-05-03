@@ -4,6 +4,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import "./globals.css";
 import localfont from "next/font/local"
+import Header from "@/sections/Header";
+import Footer from "@/sections/Footer";
 
 const gilroy = localfont({
   src: [{
@@ -24,10 +26,7 @@ const openSans = localfont({
 
 export const metadata: Metadata = {
   title: "Antoine Dangleterre",
-  description: "Développeur Front-End",
-  icons: {
-    icon: '/favicon.svg'
-  }
+  description: "Développeur Front-End"
 };
 
 export default function RootLayout({
@@ -38,7 +37,9 @@ export default function RootLayout({
   return (
     <html lang="fr" className={`${gilroy.variable} ${openSans.variable}`}>
       <body>
+        <Header />
         {children}
+        <Footer />
         <Analytics />
         <SpeedInsights />
       </body>

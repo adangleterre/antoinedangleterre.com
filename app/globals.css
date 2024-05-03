@@ -17,7 +17,7 @@ h1 {
 }
 
 body {
-  @apply font-openSans bg-lightBackground dark:bg-darkBackground
+  @apply font-openSans bg-lightBackground dark:bg-darkBackground container flex flex-col
 }
 
 .notification-mark {
@@ -50,9 +50,17 @@ section {
 }
 
 button.primary {
-  @apply bg-lightPrimary-900 dark:bg-darkPrimary-900 dark:text-darkBackground text-lightBackground font-bold py-4 px-14 rounded-[5px] shadow-lightButton
+  @apply bg-lightPrimary-700 dark:bg-darkPrimary-900 dark:text-darkBackground text-lightBackground font-bold py-4 px-14 rounded-[5px] shadow-lightButton dark:shadow-darkButton transition duration-300
+}
+
+button.primary:hover {
+  @apply bg-lightPrimary-900 dark:bg-darkPrimary-500 dark:shadow-hoverDarkButton shadow-hoverLightButton
 }
 
 button.secondary {
-  @apply bg-lightSecondary-900 dark:bg-darkSecondary-900 dark:text-darkText text-lightText font-bold py-4 px-14 rounded-[5px] shadow-lightButton
+  @apply bg-lightSecondary-700 dark:bg-darkSecondary-900 dark:text-darkText text-lightText font-bold py-4 px-14 rounded-[5px] shadow-lightButton dark:shadow-darkButton transition duration-300
+}
+
+button.secondary:hover {
+  @apply bg-lightSecondary-900 dark:bg-darkSecondary-700 dark:shadow-hoverDarkButton shadow-hoverLightButton
 }
