@@ -1,11 +1,16 @@
 import ProjectCard from "@/components/ProjectCard"
+import Reaveal from "@/components/Reaveal"
 import SectionBadge from "@/components/SectionBadge"
 
 function Projects() {
   return (
     <>
-      <SectionBadge sectionName={"Mes projets"} />
-      <h2 className="text-3xl font-extrabold text-center mb-6 md:mb-10">Quelques projets personnels</h2>
+      <Reaveal>
+        <>
+          <SectionBadge sectionName={"Mes projets"} />
+          <h2 className="text-3xl font-extrabold text-center mb-6 md:mb-10">Quelques projets personnels</h2>
+        </>
+      </Reaveal>
       <div className="flex flex-col gap-12 lg:gap-20">
         <ProjectCard
           name={"antoinedangleterre.com"}

@@ -4,10 +4,11 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
 interface reavealProps {
-    children: JSX.Element
+    children: JSX.Element,
+    style?: string
 }
 
-function Reaveal({ children }: reavealProps) {
+function Reaveal({ children, style }: reavealProps) {
     const ref = useRef<HTMLDivElement>(null);
     const { scrollYProgress } = useScroll({
         target: ref,
@@ -23,6 +24,7 @@ function Reaveal({ children }: reavealProps) {
                 scale: scaleProgress,
                 opacity: opacityProgress,
             }}
+            className={style}
         >
             {children}
         </motion.div>

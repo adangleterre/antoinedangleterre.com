@@ -1,14 +1,16 @@
-"use client";
-
 import SectionBadge from "@/components/SectionBadge"
 import Experience from "@/components/Experience"
-import { motion } from "framer-motion"
+import Reaveal from "@/components/Reaveal"
 
 function Experiences() {
     return (
-        <motion.div>
-            <SectionBadge sectionName={"Mon parcours"} />
-            <h2 className="text-3xl font-extrabold text-center mb-6 md:mb-10">Mon parcours professionnel en résumé</h2>
+        <>
+            <Reaveal>
+                <>
+                    <SectionBadge sectionName={"Mon parcours"} />
+                    <h2 className="text-3xl font-extrabold text-center mb-6 md:mb-10">Mon parcours professionnel en résumé</h2>
+                </>
+            </Reaveal>
             <div className="flex flex-col gap-12">
                 <Experience post={"Auto-Entreprenariat"} dateStart={2021} company={"Kodiz"} >
                     <p>Création d’une agence web indépendante en auto-entreprise.</p>
@@ -24,7 +26,7 @@ function Experiences() {
                     <p>Travail en TDD, Peer Programing, clean code. Projet dirigé en méthodes agiles avec présence de développeurs Indiens en offshore dans l’équipe. Intégration continue avec Jenkins, outils collaboratifs Jira ,Bitbucket ,Confluence.</p>
                 </Experience>
             </div>
-        </motion.div>
+        </>
     )
 }
 
