@@ -14,7 +14,8 @@
     "framer-motion": "^11.1.7",
     "next": "14.2.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-fast-marquee": "^1.6.4"
   },
   "devDependencies": {
     "@types/node": "^20",
