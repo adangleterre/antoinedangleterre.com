@@ -49,16 +49,23 @@ section {
   @apply mb-24 md:mb-32
 }
 
+
+button {
+  @apply font-bold py-4 px-14 rounded-[5px] shadow-lightButton dark:shadow-darkButton transition duration-300
+}
+
+
 button.primary {
-  @apply bg-lightPrimary-700 dark:bg-darkPrimary-900 dark:text-darkBackground text-lightBackground font-bold py-4 px-14 rounded-[5px] shadow-lightButton dark:shadow-darkButton transition duration-300
+  @apply bg-lightPrimary-700 dark:bg-darkPrimary-900 dark:text-darkBackground text-lightBackground
 }
 
 button.primary:hover {
   @apply bg-lightPrimary-900 dark:bg-darkPrimary-500 dark:shadow-hoverDarkButton shadow-hoverLightButton
 }
 
+
 button.secondary {
-  @apply bg-lightSecondary-700 dark:bg-darkSecondary-900 dark:text-darkText text-lightText font-bold py-4 px-14 rounded-[5px] shadow-lightButton dark:shadow-darkButton transition duration-300
+  @apply bg-lightSecondary-700 dark:bg-darkSecondary-900 dark:text-darkText text-lightText
 }
 
 button.secondary:hover {

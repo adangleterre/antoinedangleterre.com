@@ -16,7 +16,7 @@ function Experience({ post, company, dateStart, dateEnd, children }: ExperienceP
           <div className="flex text-lightPrimary-700 dark:text-darkPrimary-700 flex-none">{dateStart} - {dateEnd ? dateEnd : "Auj."}</div>
           <div className="flex flex-col gap-3">
             <h3 className="text-lightPrimary-900 dark:text-darkPrimary-900 font-openSans flex-0 font-bold text-lg mb-2">{post} | {company}</h3>
-            <div className="dark:text-[#BCD2EF] flex flex-col gap-3">
+            <div className="dark:text-[#BCD2EF] flex flex-col gap-6">
               {children}
             </div>
           </div>
