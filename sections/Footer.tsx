@@ -24,8 +24,8 @@ function Footer() {
             </div>
             <div className="flex flex-col-reverse sm:flex-row text-center justify-center gap-4 sm:gap-12 text-sm opacity-85">
                 <a className="hidden" href="http://">Accessibilité : partiellement conforme</a>
-                <a href="http://">boonjour@antoinedangleterre.fr</a>
-                <a href="http://">Consultez mon cv</a>
+                <a href="mailto:bonjour@antoinedangleterre.com">boonjour@antoinedangleterre.fr</a>
+                <a href="https://drive.google.com/file/d/1DHed1MAnsKXpxmkZZioPBw4UsUOnVXZs/view?usp=sharing">Consultez mon cv</a>
             </div>
         </footer>
     )
