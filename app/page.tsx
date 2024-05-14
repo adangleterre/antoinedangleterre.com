@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <main>
-        <section className="h-[60vh] lg:h-[50vh] ">
+        <section className="h-[70vh] mb-0">
           <Hero />
         </section>
         <section>
