@@ -1,16 +1,16 @@
 import SectionBadge from "@/components/SectionBadge"
 import Experience from "@/components/Experience"
-import Reaveal from "@/components/Reaveal"
+import RevealContent from "@/components/ReavealContent"
 
 function Experiences() {
     return (
         <>
-            <Reaveal>
+            <RevealContent>
                 <>
                     <SectionBadge sectionName={"Mon parcours"} />
                     <h2 className="text-3xl font-extrabold text-center mb-6 md:mb-10">Mon parcours professionnel en résumé</h2>
                 </>
-            </Reaveal>
+            </RevealContent>
             <div className="flex flex-col gap-12">
                 <Experience post={"Auto-Entreprenariat"} dateStart={2021} company={"Kodiz"}>
                     <p>Création d’une agence web indépendante en auto-entreprise.</p>
@@ -25,7 +25,9 @@ function Experiences() {
                 </Experience>
                 <Experience post={"Développeur Backend"} dateStart={2019} dateEnd={2020} company={"Lyreco Group"} >
                     <p>Développeur en alternance sur un projet Golden Copie.</p>
-                    <p>Travail en TDD, Peer Programing , clean code. Projet dirigé en  méthodes agiles avec présence de développeurs Indiens en offshore dans l’équipe. Intégration continue avec Jenkins, outils collaboratifs Jira, Bitbucket, Confluence.</p>
+                    <p>Projet en Java Spring, base MongoDB, sauvegarde des données via une BDD Oracle. Gestion de l’API Rest avec Swagger, routing avec Apache Camel, tests unitaires avec Junit.</p>
+                    <p>Travail en TDD, Peer Programing , clean code. Projet dirigé en méthodes agiles avec présence de développeurs Indiens en offshore dans l’équipe. Intégration continue
+ avec Jenkins, outils collaboratifs Jira, Bitbucket, Confluence.</p>
                 </Experience>
             </div>
         </>

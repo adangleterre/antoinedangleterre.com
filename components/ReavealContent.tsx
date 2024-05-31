@@ -8,7 +8,7 @@ interface reavealProps {
     style?: string
 }
 
-function Reaveal({ children, style }: reavealProps) {
+function RevealContent({ children, style }: reavealProps) {
     const ref = useRef<HTMLDivElement>(null);
     const { scrollYProgress } = useScroll({
         target: ref,
@@ -31,4 +31,4 @@ function Reaveal({ children, style }: reavealProps) {
     );
 }
 
-export default Reaveal
+export default RevealContent

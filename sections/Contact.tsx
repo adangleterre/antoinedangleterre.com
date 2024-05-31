@@ -1,10 +1,10 @@
 import SectionBadge from "@/components/SectionBadge"
 import Icons from "@/components/Icons"
-import Reaveal from "@/components/Reaveal"
+import RevealContent from "@/components/ReavealContent"
 
 function Contact() {
     return (
-        <Reaveal style="flex flex-col items-center">
+        <RevealContent style="flex flex-col items-center">
             <>
                 <SectionBadge sectionName="Mes contacts" />
                 <p className="text-2xl text-center md:text-5xl font-extrabold font-gilroy">Envie d'échanger avec moi ?</p>
@@ -20,7 +20,7 @@ function Contact() {
                     </a>
                 </div>
             </>
-        </Reaveal>
+        </RevealContent>
     )
 }
 
