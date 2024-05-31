@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 function SkillsBadge() {
-    const skills = ["ReactJs", "NextJs", "JavaScript", "TypeScript", "TailwindCSS", "Bootstrap", "Git", "Github", "Figma", "Adobe XD", "Accessibilité numérique"]
+    const skills = ["React.JS", "Next.JS", "JavaScript", "TypeScript", "Tailwind CSS", "Bootstrap", "Framer motion", "Jest", "React testing" ,"Git", "Github", "Figma", "Adobe XD", "Accessibilité numérique"]
     const shuffledSkills = skills.sort(() => Math.random() - 0.5);
 
     const animationVariants = {

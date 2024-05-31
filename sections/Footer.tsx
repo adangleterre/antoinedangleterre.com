@@ -8,7 +8,7 @@ function Footer() {
             <div className="flex flex-col sm:flex-row py-14">
                 <div className="flex flex-col gap-7 sm:w-9/12">
                     <BrandLogo />
-                    <p className="text-sm text-[#1E2F40]">Ce portfolio est toujours en cours d’évolution. Développé avec React, Vite et TailwindCss. Design fait avec Figma. Le versionning est géré par GitHub et l’hébergement du site par o2switch. La police pour les titres est Gilroy, celle pour les corps de texte est Open Sans. Les icones utilisés sont celles de la collection Material Rounded provenant du site Icons8.</p>
+                    <p className="text-sm text-[#1E2F40]">Ce portfolio est toujours en cours d’évolution. Développé avec Next.JS, React.JS, Tailwind CSS, Framer motion pour les animations. Design fait avec Figma. Le versionning est géré par GitHub et l’hébergement du site par Vercel. La police pour les titres est Gilroy, celle pour les corps de texte est Open Sans. Les icones utilisés sont celles de la collection Material Rounded provenant du site Icons8.</p>
                 </div>
                 <div className="flex sm:flex-col gap-10 sm:gap-5 sm:w-3/12 items-center justify-center sm:items-end mt-10 sm:m-0">
                     <a href="https://github.com/adangleterre" target="_blank">
@@ -24,7 +24,7 @@ function Footer() {
             </div>
             <div className="flex flex-col-reverse sm:flex-row text-center justify-center gap-4 sm:gap-12 text-sm opacity-85">
                 <a className="hidden" href="http://">Accessibilité : partiellement conforme</a>
-                <a href="mailto:bonjour@antoinedangleterre.com">boonjour@antoinedangleterre.fr</a>
+                <a href="mailto:bonjour@antoinedangleterre.com">bonjour@antoinedangleterre.fr</a>
                 <a href="https://drive.google.com/file/d/1DHed1MAnsKXpxmkZZioPBw4UsUOnVXZs/view?usp=sharing">Consultez mon cv</a>
             </div>
         </footer>

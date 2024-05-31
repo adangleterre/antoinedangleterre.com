@@ -1,4 +1,4 @@
-import Reaveal from "@/components/Reaveal"
+import RevealContent from "@/components/ReavealContent"
 
 interface ExperienceProps {
   post: string,
@@ -11,7 +11,7 @@ interface ExperienceProps {
 function Experience({ post, company, dateStart, dateEnd, children }: ExperienceProps) {
   return (
     <>
-      <Reaveal style="flex flex-col md:flex-row md:gap-6 gap-1 bg-lightSecondary-300 dark:bg-[#163E6C] shadow-lightCard dark:shadow-darkCard rounded-xl p-6 sm:p-8 md:p-10 lg:w-10/12 self-center">
+      <RevealContent style="flex flex-col md:flex-row md:gap-6 gap-1 bg-lightSecondary-300 dark:bg-[#163E6C] shadow-lightCard dark:shadow-darkCard rounded-xl p-6 sm:p-8 md:p-10 lg:w-10/12 self-center">
         <>
           <div className="flex text-lightPrimary-700 dark:text-darkPrimary-700 flex-none">{dateStart} - {dateEnd ? dateEnd : "Auj."}</div>
           <div className="flex flex-col gap-3">
@@ -21,7 +21,7 @@ function Experience({ post, company, dateStart, dateEnd, children }: ExperienceP
             </div>
           </div>
         </>
-      </Reaveal>
+      </RevealContent>
     </>
   )
 }

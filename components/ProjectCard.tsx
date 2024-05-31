@@ -1,4 +1,4 @@
-import Reaveal from "@/components/Reaveal"
+import RevealContent from "@/components/ReavealContent"
 import Image from "next/image";
 import Icons from "./Icons"
 import TechnoBadge from "./TechnoBadge"
@@ -16,7 +16,7 @@ interface ProjectCardProps {
 function ProjectCard({ name, description, directLink, githubLink, imageSrc, imagePosition, technologies = [] }: ProjectCardProps) {
     if (imagePosition === "left") {
         return (
-            <Reaveal style="flex items-center relative flex-row-reverse xl:min-h-[500px]">
+            <RevealContent style="flex items-center relative flex-row-reverse xl:min-h-[500px]">
                 <>
                     <div className="bg-[#EFF6FF] dark:bg-[#08203E] rounded-[10px] p-11 flex flex-col gap-6 w-12/12 md:w-7/12 shadow-lightCard dark:shadow-darkCard z-10 h-min">
                         <p className="font-bold text-xl">{name}</p>
@@ -51,11 +51,11 @@ function ProjectCard({ name, description, directLink, githubLink, imageSrc, imag
                         />
                     </div>
                 </>
-            </Reaveal>
+            </RevealContent>
         )
     } else if (imagePosition === "right") {
         return (
-            <Reaveal style="flex items-center relative xl:min-h-[500px]">
+            <RevealContent style="flex items-center relative xl:min-h-[500px]">
                 <>
                     <div className="w-7/12 hidden md:block md:absolute right-0 top-1/2 transform -translate-y-1/2">
                         <Image
@@ -90,7 +90,7 @@ function ProjectCard({ name, description, directLink, githubLink, imageSrc, imag
                         }
                     </div>
                 </>
-            </Reaveal>
+            </RevealContent>
         )
     }
 
