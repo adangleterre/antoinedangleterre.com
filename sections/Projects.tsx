@@ -23,7 +23,7 @@ function Projects() {
         />
         <ProjectCard
           name={"La data verte"}
-          description={"Un site web créé en collaboration avec un autre developpeur, ce site récupère les données d'une API custom pour afficher des statistiques et des informations sur le club de foot de l'AS Saint-Etienne."}
+          description={"Un site web créé en collaboration avec un autre développeur, qui récupère les données d'une API personnalisée pour afficher des statistiques et des informations sur le club de foot de l'AS Saint-Étienne."}
           technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
           imageSrc={"/images/Screenshot-La-data-verte.png"}
           imagePosition={"left"}
@@ -40,7 +40,7 @@ function Projects() {
         />
         <ProjectCard
           name={"Kodiz"}
-          description={"Le site mon auto-entreprise avec laquelle j'ai créé et designé des sites pour des entreprises de tous horizons"}
+          description={"Le site de mon auto-entreprise avec laquelle j'ai créé des sites web et accompagné mes clients dans l'évolution de leur présence en ligne"}
           technologies={["Blog", "SEO", "Marketing", "Webdesign", "UX/UI", "WordPress", "Maintenance"]}
           imageSrc={"/images/Screenshot-kodiz.png"}
           imagePosition={"left"}
