@@ -28,7 +28,7 @@ function Hero() {
                         text={"Prenez contact avec moi"}
                     />
                 </a>
-                <a href="https://drive.google.com/file/d/1DHed1MAnsKXpxmkZZioPBw4UsUOnVXZs/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/1tjdjfRHZ6Q07skRe19hsihYCxvw4dIuU/view?usp=sharing" target="_blank">
                     <Button
                         color={"secondary"}
                         text={"Téléchargez mon CV"}
