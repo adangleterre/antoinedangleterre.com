@@ -1,10 +1,9 @@
-import React from 'react';
-import sunIcon from '../public/sun.svg';
-import moonIcon from '../public/moon.svg';
+import sunIcon from '/public/sun.svg';
+import moonIcon from '/public/moon.svg';
 import Image from 'next/image';
 import useTheme from "@/hooks/useTheme";
 
-const ThemeToggle: React.FC = () => {
+function ThemeToggle() {
     const [theme, setTheme] = useTheme();
 
     const toggleTheme = () => {
@@ -12,7 +11,7 @@ const ThemeToggle: React.FC = () => {
     };
 
     return (
-        <div onClick={toggleTheme} className='cursor-pointer'>
+        <div onClick={toggleTheme} className='cursor-pointer hover:scale-110 transition duration-300'>
             <Image src={theme === 'light' ? sunIcon : moonIcon} alt="Theme toggle"/>
         </div>
     )

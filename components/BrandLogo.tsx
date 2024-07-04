@@ -1,6 +1,6 @@
 import Image from "next/image"
-import lightLogo from '../public/images/logo-clear-theme.svg';
-import darkLogo from '../public/images/logo-dark-theme.svg';
+import lightLogo from '/public/images/logo-clear-theme.svg';
+import darkLogo from '/public/images/logo-dark-theme.svg';
 
 function BrandLogo() {
     return (
