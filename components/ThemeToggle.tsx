@@ -1,39 +1,21 @@
-"use client"
-
-import sunIcon from '../public/sun.svg'
-import moonIcon from '../public/moon.svg'
-import { useEffect, useState } from 'react';
+import React from 'react';
+import sunIcon from '../public/sun.svg';
+import moonIcon from '../public/moon.svg';
 import Image from 'next/image';
+import useTheme from "@/hooks/useTheme";
 
+const ThemeToggle: React.FC = () => {
+    const [theme, setTheme] = useTheme();
 
-const ThemeToggle = () => {
-    const [darkMode, setDarkMode] = useState(true)
-    const [icon, setIcon] = useState(moonIcon)
-
-    useEffect(() => {
-        const theme = localStorage.getItem("theme")
-        if (theme === "dark") {
-            setDarkMode(false)
-        }
-    }, [])
-
-    useEffect(() => {
-        if (darkMode) {
-            document.documentElement.classList.add('dark')
-            localStorage.setItem("theme", "dark")
-            setIcon(moonIcon) 
-        } else {
-            document.documentElement.classList.remove('dark')
-            localStorage.setItem("theme", "light")
-            setIcon(sunIcon)
-        }
-    }, [darkMode])
+    const toggleTheme = () => {
+        setTheme(theme === 'light' ? 'dark' : 'light');
+    };
 
     return (
-        <div onClick={() => setDarkMode(!darkMode)} className='cursor-pointer'>
-            <Image src={icon} alt=""/>
+        <div onClick={toggleTheme} className='cursor-pointer'>
+            <Image src={theme === 'light' ? sunIcon : moonIcon} alt="Theme toggle"/>
         </div>
     )
 }
 
-export default ThemeToggle
+export default ThemeToggle;
