@@ -11,7 +11,7 @@ function ThemeToggle() {
     };
 
     return (
-        <div onClick={toggleTheme} className='cursor-pointer hover:scale-110 transition duration-300'>
+        <div onClick={toggleTheme} className='cursor-pointer hover:rotate-45 transition duration-300'>
             <Image src={theme === 'light' ? sunIcon : moonIcon} alt="Theme toggle"/>
         </div>
     )
