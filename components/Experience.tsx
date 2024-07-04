@@ -1,6 +1,6 @@
 import RevealContent from "@/components/ReavealContent"
 
-interface ExperienceProps {
+type ExperienceProps = {
   post: string,
   dateStart: number,
   dateEnd?: number,

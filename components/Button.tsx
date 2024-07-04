@@ -1,4 +1,4 @@
-interface ButtonProps {
+type ButtonProps = {
     color: string;
     text: string;
     className?: string;

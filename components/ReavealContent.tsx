@@ -1,14 +1,14 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import {ReactNode, useRef} from "react";
 
-interface reavealProps {
-    children: JSX.Element,
+type RevealProps = {
+    children: ReactNode,
     style?: string
 }
 
-function RevealContent({ children, style }: reavealProps) {
+function RevealContent({ children, style }: RevealProps) {
     const ref = useRef<HTMLDivElement>(null);
     const { scrollYProgress } = useScroll({
         target: ref,

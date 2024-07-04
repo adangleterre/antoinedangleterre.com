@@ -3,7 +3,7 @@ import Image from "next/image";
 import Icons from "./Icons"
 import TechnoBadge from "./TechnoBadge"
 
-interface ProjectCardProps {
+type ProjectCardProps = {
     name: string;
     description: string;
     directLink?: string;

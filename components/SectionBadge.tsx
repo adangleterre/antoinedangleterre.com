@@ -1,4 +1,4 @@
-interface sectionBadgeProps {
+type sectionBadgeProps = {
   sectionName: string;
 }
 

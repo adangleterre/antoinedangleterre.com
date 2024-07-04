@@ -1,4 +1,4 @@
-interface technoBadgeProps {
+type technoBadgeProps = {
     sectionName: string;
   }
   
