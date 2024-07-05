@@ -14,11 +14,11 @@
 
 ### Built With
 
-* ![Next.js](https://github.com/adangleterre/adangleterre/assets/45876792/6794dcd6-6f38-4f39-bc37-f0dee5f5eb54)
-* ![React](https://github.com/adangleterre/adangleterre/assets/45876792/0f15baaa-ca71-492a-998f-d00ecaf9aa2d)
-* ![TS](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-* ![Tailwind CSS](https://github.com/adangleterre/adangleterre/assets/45876792/3f077e10-688f-47b0-81ae-530fffa5c65f)
-* ![Figma](https://github.com/adangleterre/adangleterre/assets/45876792/a73f8144-9420-48a3-bbff-513f29e33c11)
+- ![Next.js](https://github.com/adangleterre/adangleterre/assets/45876792/6794dcd6-6f38-4f39-bc37-f0dee5f5eb54)
+- ![React](https://github.com/adangleterre/adangleterre/assets/45876792/0f15baaa-ca71-492a-998f-d00ecaf9aa2d)
+- ![TS](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+- ![Tailwind CSS](https://github.com/adangleterre/adangleterre/assets/45876792/3f077e10-688f-47b0-81ae-530fffa5c65f)
+- ![Figma](https://github.com/adangleterre/adangleterre/assets/45876792/a73f8144-9420-48a3-bbff-513f29e33c11)
 
 This website has been designed by myself from scratch, [take a look at the designs here](https://www.figma.com/file/4FZ8Bwpcui9nMTbN2JvWx5/Portfolio-perso?type=design&node-id=20%3A8&mode=design&t=3aF2dpyjIyXbiE4D-1)
 
@@ -26,22 +26,21 @@ This website has been designed by myself from scratch, [take a look at the desig
 
 #### 💡 Light theme
 
-| Color             | Name                                                                | Hex                                                               |
-| ----------------- | ------------------------------------------------------------------  | ----------------------------------------------------------------- |
-| Primary Color     | Indigo dye                                                          | ![#1E4571](https://via.placeholder.com/10/1E4571?text=+) #222831  |
-| Secondary Color   | Ruddy blue                                                          | ![#7CACE4](https://via.placeholder.com/10/7CACE4?text=+) #7CACE4  |
-| Background Color  | Alice Blue                                                          | ![#DFECFB](https://via.placeholder.com/10/DFECFB?text=+) #DFECFB  |
-| Text Color        | Rich black                                                          | ![#090F15](https://via.placeholder.com/10/090F15?text=+) #090F15  |
+| Color            | Name       | Hex                                                              |
+| ---------------- | ---------- | ---------------------------------------------------------------- |
+| Primary Color    | Indigo dye | ![#1E4571](https://via.placeholder.com/10/1E4571?text=+) #222831 |
+| Secondary Color  | Ruddy blue | ![#7CACE4](https://via.placeholder.com/10/7CACE4?text=+) #7CACE4 |
+| Background Color | Alice Blue | ![#DFECFB](https://via.placeholder.com/10/DFECFB?text=+) #DFECFB |
+| Text Color       | Rich black | ![#090F15](https://via.placeholder.com/10/090F15?text=+) #090F15 |
 
 #### 🌃 Dark theme
 
-| Color             | Name                                                                | Hex                                                               |
-| ----------------- | ------------------------------------------------------------------  | ----------------------------------------------------------------- |
-| Primary Color     | Jordy Blue                                                          | ![#8EB5E1](https://via.placeholder.com/10/8EB5E1?text=+) #8EB5E1  |
-| Secondary Color   | YInMn Blue                                                          | ![#1B4C85](https://via.placeholder.com/10/1B4C85?text=+) #1B4C85  |
-| Background Color  | Rich black                                                          | ![#041121](https://via.placeholder.com/10/041121?text=+) #041121  |
-| Text Color        | Alice Blue                                                          | ![#EBF0F6](https://via.placeholder.com/10/EBF0F6?text=+) #EBF0F6  |
-
+| Color            | Name       | Hex                                                              |
+| ---------------- | ---------- | ---------------------------------------------------------------- |
+| Primary Color    | Jordy Blue | ![#8EB5E1](https://via.placeholder.com/10/8EB5E1?text=+) #8EB5E1 |
+| Secondary Color  | YInMn Blue | ![#1B4C85](https://via.placeholder.com/10/1B4C85?text=+) #1B4C85 |
+| Background Color | Rich black | ![#041121](https://via.placeholder.com/10/041121?text=+) #041121 |
+| Text Color       | Alice Blue | ![#EBF0F6](https://via.placeholder.com/10/EBF0F6?text=+) #EBF0F6 |
 
 More infos about my color palette in [my design system here](https://www.figma.com/file/4FZ8Bwpcui9nMTbN2JvWx5/Portfolio-perso?type=design&node-id=21%3A113&mode=design&t=3aF2dpyjIyXbiE4D-1)
 

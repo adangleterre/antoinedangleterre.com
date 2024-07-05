@@ -1,6 +1,6 @@
 type sectionBadgeProps = {
   sectionName: string;
-}
+};
 
 function SectionBadge({ sectionName }: sectionBadgeProps) {
   return (
@@ -9,7 +9,7 @@ function SectionBadge({ sectionName }: sectionBadgeProps) {
         {sectionName}
       </div>
     </div>
-  )
+  );
 }
 
-export default SectionBadge
+export default SectionBadge;
