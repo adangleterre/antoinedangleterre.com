@@ -3,9 +3,13 @@
   "extends": [
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:tailwindcss/recommended"
   ],
   "rules": {
     "react/react-in-jsx-scope": "off"
-  }
+  },
+  "plugins": [
+    "tailwindcss"
+  ]
 }
