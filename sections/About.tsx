@@ -36,21 +36,21 @@ function About() {
               <h2 className="mb-6 text-3xl font-bold">A propos de moi</h2>
               <div className="flex flex-col gap-4">
                 <p>
-                  Bienvenue ! Je m&quot;appelle Antoine, j&quot;ai 27 ans et je
+                  Bienvenue ! Je m&apos;appelle Antoine, j&apos;ai 27 ans et je
                   suis passionné par le monde du web et le développement en
                   général et cela depuis 2015.
                 </p>
                 <p>
-                  Je travaille la plupart du temps avec React.js et j&quot;aime
+                  Je travaille la plupart du temps avec React.js et j&apos;aime
                   créer des interfaces plaisantes, compréhensibles et
                   performantes pour ses utilisateurs.
                 </p>
                 <p>
-                  Mais mon enthousiasme envers le web ne s&quot;arrête pas au
-                  développement ! J&quot;ai déjà transmis mes connaissances en
+                  Mais mon enthousiasme envers le web ne s&apos;arrête pas au
+                  développement ! J&apos;ai déjà transmis mes connaissances en
                   formant des étudiants et des collègues, je fais parfois un peu
-                  de SEO et de web design. Je m&quot;intéresse également à
-                  l&quot;accessibilité numérique, un enjeu que je trouve bien
+                  de SEO et de web design. Je m&apos;intéresse également à
+                  l&apos;accessibilité numérique, un enjeu que je trouve bien
                   trop souvent sous-estimé par les acteurs du numérique.
                 </p>
                 <p>

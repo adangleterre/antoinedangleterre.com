@@ -8,7 +8,7 @@ function Contact() {
       <>
         <SectionBadge sectionName="Mes contacts" />
         <p className="text-center font-gilroy text-2xl font-extrabold md:text-5xl">
-          Envie d&quot;échanger avec moi ?
+          Envie d&apos;échanger avec moi ?
         </p>
         <a href="mailto:bonjour@antoinedangleterre.com" target="_blank">
           <div className="mb-6 mt-10 flex items-center gap-4 text-lg font-bold sm:text-xl">
