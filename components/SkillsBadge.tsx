@@ -46,7 +46,7 @@ function SkillsBadge() {
             once: true,
           }}
           custom={index}
-          className="mx-2 overflow-hidden rounded-md shadow-lightButton dark:shadow-darkButton text-lg font-semibold bg-[#B4D0F0] text-primary-900 dark:text-[#000000] dark:bg-darkSecondary-300 px-4 py-1 my-3 cursor-default"
+          className="text-primary-900 mx-2 my-3 cursor-default overflow-hidden rounded-md bg-[#B4D0F0] px-4 py-1 text-lg font-semibold shadow-lightButton dark:bg-darkSecondary-300 dark:text-[#000000] dark:shadow-darkButton"
         >
           {skill}
         </motion.div>

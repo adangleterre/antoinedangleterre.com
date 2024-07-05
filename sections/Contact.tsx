@@ -7,11 +7,11 @@ function Contact() {
     <RevealContent style="flex flex-col items-center">
       <>
         <SectionBadge sectionName="Mes contacts" />
-        <p className="text-2xl text-center md:text-5xl font-extrabold font-gilroy">
-          Envie d'échanger avec moi ?
+        <p className="text-center font-gilroy text-2xl font-extrabold md:text-5xl">
+          Envie d&quot;échanger avec moi ?
         </p>
         <a href="mailto:bonjour@antoinedangleterre.com" target="_blank">
-          <div className="mb-6 mt-10 font-bold text-lg sm:text-xl flex gap-4 items-center">
+          <div className="mb-6 mt-10 flex items-center gap-4 text-lg font-bold sm:text-xl">
             <Icons name="mail" size={20} /> bonjour@antoinedangleterre.fr
           </div>
         </a>

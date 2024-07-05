@@ -11,16 +11,16 @@ function Header() {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="flex items-center mt-[50px]"
+      className="mt-[50px] flex items-center"
     >
-      <div className="items-center hidden gap-4 md:flex md:w-3/12 cursor-default">
+      <div className="hidden cursor-default items-center gap-4 md:flex md:w-3/12">
         <AlertDot />
         Disponible
       </div>
-      <div className="flex w-9/12 md:w-8/12 md:justify-center ">
+      <div className="flex w-9/12 md:w-8/12 md:justify-center">
         <BrandLogo />
       </div>
-      <div className="flex justify-end w-3/12">
+      <div className="flex w-3/12 justify-end">
         <ThemeToggle />
       </div>
     </motion.header>

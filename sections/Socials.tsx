@@ -2,7 +2,7 @@ import Icons from "../components/Icons";
 
 function Socials() {
   return (
-    <div className="flex gap-12 mb-[50px] items-center">
+    <div className="mb-[50px] flex items-center gap-12">
       <a href="https://github.com/adangleterre" target="_blank">
         <Icons name={"github"} size={30} />
       </a>

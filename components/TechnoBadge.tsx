@@ -4,8 +4,8 @@ type technoBadgeProps = {
 
 function TechnoBadge({ sectionName }: technoBadgeProps) {
   return (
-    <div className="flex justify-center mb-3">
-      <div className="rounded-[20px] bg-[#B4D0F0] text-primary-900 dark:text-[#E7F1FD] dark:bg-darkSecondary-300 px-4 py-1 cursor-default">
+    <div className="mb-3 flex justify-center">
+      <div className="text-primary-900 cursor-default rounded-[20px] bg-[#B4D0F0] px-4 py-1 dark:bg-darkSecondary-300 dark:text-[#E7F1FD]">
         {sectionName}
       </div>
     </div>

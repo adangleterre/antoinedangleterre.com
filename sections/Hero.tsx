@@ -5,7 +5,7 @@ import Button from "../components/Button";
 
 function Hero() {
   return (
-    <div className="flex flex-col items-center justify-center h-full">
+    <div className="flex h-full flex-col items-center justify-center">
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
@@ -23,7 +23,7 @@ function Hero() {
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.8, duration: 1 }}
-        className="flex flex-col sm:flex-row mt-12 items-center gap-9"
+        className="mt-12 flex flex-col items-center gap-9 sm:flex-row"
       >
         <a href="mailto:bonjour@antoinedangleterre.com">
           <Button color={"primary"} text={"Prenez contact avec moi"} />

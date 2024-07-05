@@ -8,7 +8,7 @@ function Experiences() {
       <RevealContent>
         <>
           <SectionBadge sectionName={"Mon parcours"} />
-          <h2 className="text-3xl font-extrabold text-center mb-6 md:mb-10">
+          <h2 className="mb-6 text-center text-3xl font-extrabold md:mb-10">
             Mon parcours professionnel en résumé
           </h2>
         </>

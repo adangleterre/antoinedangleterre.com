@@ -8,12 +8,12 @@ function BrandLogo() {
       <Image
         src={lightLogo}
         alt="logo Antoine Dangleterre"
-        className="max-h-12 dark:hidden w-fit"
+        className="max-h-12 w-fit dark:hidden"
       />
       <Image
         src={darkLogo}
         alt="logo Antoine Dangleterre"
-        className="hidden dark:block max-h-12 w-fit"
+        className="hidden max-h-12 w-fit dark:block"
       />
     </>
   );
