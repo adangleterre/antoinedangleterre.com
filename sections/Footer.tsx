@@ -40,7 +40,7 @@ function Footer() {
         <a href="mailto:bonjour@antoinedangleterre.com">
           bonjour@antoinedangleterre.fr
         </a>
-        <a href="https://drive.google.com/file/d/1DHed1MAnsKXpxmkZZioPBw4UsUOnVXZs/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1tjdjfRHZ6Q07skRe19hsihYCxvw4dIuU/view?usp=sharing">
           Consultez mon cv
         </a>
       </div>
