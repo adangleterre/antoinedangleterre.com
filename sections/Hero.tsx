@@ -29,7 +29,7 @@ function Hero() {
           <Button color={"primary"} text={"Prenez contact avec moi"} />
         </a>
         <a
-          href="https://drive.google.com/file/d/1tjdjfRHZ6Q07skRe19hsihYCxvw4dIuU/view?usp=sharing"
+          href="https://drive.google.com/file/d/1gauwXynx1Rp-BmBx5rjcZekhdoMB_Nq7/view?usp=sharing"
           target="_blank"
         >
           <Button

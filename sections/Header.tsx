@@ -15,7 +15,7 @@ function Header() {
     >
       <div className="hidden cursor-default items-center gap-4 md:flex md:w-3/12">
         <AlertDot />
-        Disponible
+        Indisponible
       </div>
       <div className="flex w-9/12 md:w-8/12 md:justify-center">
         <BrandLogo />
